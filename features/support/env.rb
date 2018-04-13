@@ -7,6 +7,13 @@ caps = Appium.load_appium_txt file: caps_path, verbose: true
 
 Appium:: Driver.new caps, true
 
-$driver.start_driver
 
-#$driver.quit_driver
+Before do
+    $driver.start_driver
+end
+
+After {$driver.driver_quit}
+
+#$driver.start_driver
+
+#$driver.driver_quit
