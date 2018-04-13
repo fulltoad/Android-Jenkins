@@ -1,0 +1,4 @@
+[caps]
+platformName = "Android"
+deviceName = "emulator-5554"
+app = "/Users/brunomelo/AndroidStudioProjects/MyApplication/app/build/outputs/apk/debug/app-debug.apk"
