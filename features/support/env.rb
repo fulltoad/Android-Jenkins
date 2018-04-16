@@ -12,8 +12,14 @@ Before do
     $driver.start_driver
 end
 
-After {$driver.driver_quit}
+After do |scenario |
+    file_name = "screenshot_#{}.png"
+    $driver.screenshot(File.join("/Users/brunomelo/test/cucumber/screenshot", file _file_name)) if test
+    scenario.failed?
+    $driver.driver_quit
+end
 
 #$driver.start_driver
 
 #$driver.driver_quit
+
