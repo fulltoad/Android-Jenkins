@@ -1,10 +1,10 @@
 # config/cucumber.yml
 ##YAML Template
 
-android: PLATFORM=android --exclude features/ios
+android: PLATFORM=android
 
-ios: PLATFORM=ios --exclude features/android
+ios: PLATFORM=ios
 
 bruno: QA=bruno
 
-jenkins: QA=jenkins
+jenkins: QA=jenkins -f json -o reports/report.json
