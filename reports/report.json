@@ -1,0 +1,80 @@
+[
+  {
+    "uri": "features/test.feature",
+    "id": "teste-de-integracao-com-jenkins",
+    "keyword": "Funcionalidade",
+    "name": "Teste de integracao com Jenkins",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "teste-de-integracao-com-jenkins;clique-no-botao",
+        "keyword": "Cenario",
+        "name": "Clique no botao",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/env.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47531229000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na tela inicial",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/test_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68091000
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "toco no botao \"<troca tela>\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/test_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398568000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "sou direcionado para tela 2",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/test_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535605000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/env.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4881135000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
