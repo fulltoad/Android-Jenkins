@@ -20,8 +20,9 @@
               "location": "features/support/env.rb:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 92642248000
+              "status": "failed",
+              "error_message": "An unknown server-side error occurred while processing the command. Original error: Problem downloading app from url http://localhost:8080/job/MyApp_Android/lastSuccessfulBuild/artifact/app/build/outputs/apk/debug/app-debug.apk: Error downloading file: 403 (Selenium::WebDriver::Error::UnknownError)\n./features/support/env.rb:12:in `Before'",
+              "duration": 2437846000
             }
           }
         ],
@@ -34,8 +35,7 @@
               "location": "features/step_definitions/test_steps.rb:1"
             },
             "result": {
-              "status": "passed",
-              "duration": 409292000
+              "status": "skipped"
             }
           },
           {
@@ -46,8 +46,7 @@
               "location": "features/step_definitions/test_steps.rb:6"
             },
             "result": {
-              "status": "passed",
-              "duration": 457696000
+              "status": "skipped"
             }
           },
           {
@@ -58,8 +57,7 @@
               "location": "features/step_definitions/test_steps.rb:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 505537000
+              "status": "skipped"
             }
           }
         ],
@@ -70,7 +68,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1025419000
+              "duration": 40000
             }
           }
         ]
