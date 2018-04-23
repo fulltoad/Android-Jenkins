@@ -2,4 +2,4 @@
 deviceName = 'LGK430ROK7M7KJ'
 platformVersion = '6.0'
 platformName = 'Android'
-app = '10.13.26.91/job/MyApp_Android/lastSuccessfulBuild/artifact/app/build/outputs/apk/debug/app-debug.apk'
+app = '10.13.26.91/job/MyApp_Android/lastSuccessfulBuild/archive/app/build/outputs/apk/debug/app-debug.apk'
